@@ -1,4 +1,4 @@
-# Emotion_recognition_movies
+# Emotion Recognition in Movie Abstracts
 The identification, definition, and automatic prediction of a set of emotions in movies, based on their movie abstract and various metadata.
 
 This project was submitted in fulfillment of requirements for the degree of MSc Information Management at Strathclyde University.
