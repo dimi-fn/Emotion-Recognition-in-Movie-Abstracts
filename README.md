@@ -1,7 +1,7 @@
 # Extraction of Emotional Tags from Movie Synopses
 The identification, definition, and automatic prediction of a set of emotions in movies, based on their movie abstract and various metadata.
 
-This project was submitted in fulfillment of requirements for the degree of MSc Information Management at Strathclyde University.
+This project was submitted in part fulfillment of requirements for the degree of MSc Information Management at Strathclyde University.
 
 The aim was to identify, define, and automatically predict a set of emotions in movies, based on their movie abstract and various metadata. This was achieved with various data processing, machine & deep learning tools, with a core element and focus on Natural Language Processing.
 
