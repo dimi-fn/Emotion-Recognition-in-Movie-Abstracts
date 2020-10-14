@@ -36,7 +36,7 @@ After data preprocessing, feature selection and feature engineering the best mod
 10)	XGBClassifier
 11)	Multi-layer (MLP) Perception Classifier (shallow network)
 12)	Multi-layer (MLP) Perception Classifier (deep network)
-## Multi-label Classification Evaluation Metrics
+### Multi-label Classification Evaluation Metrics
 Micro average F1 score, subset accuracy score, cross-validation score, hamming loss metric, ROC-AUC score.
 
 The final model was also evaluated via the [Scikit-Learn's multi-label confusion matrix report](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.multilabel_confusion_matrix.html).
