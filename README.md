@@ -12,15 +12,15 @@ The problem was treated as a *multi-label classification* one, and the result wa
 Overall, various correlation tests indicated a strong relationship among users' watchlist and the respective emotional tags. It was concluded that the notion of emotion can constitute an important feature in the movie industry with regard to recommender systems and advertising companies for generating, finding, and placing a higher level of personalized content.
 ## Research Problem - Domain
 The production of the model would presuppose the existence of some emotional classes-labels with regard to movies. However and based on the research conducted, there was found no dataset fulfilling that, and therefore, initial manual labeling was necessary, as well the decision of the emotional tags used.
-Αfter thorough research, Ekman’s six discrete emotional classes (Ekman, 1992; Lazemi & Ebrahimpour-Komleh, 2016; Tkalčič et al., 2016) were decided to constitute the emotional tags. These classes can be easily linked with facial communication and expressions, and these are (with alphabetical order): anger, disgust, fear, happiness, sadness, and surprise (Ekman, 1992; Farzindar & Inkpen, 2015:p.50).
+Αfter thorough research, Ekman’s six discrete emotional classes (Ekman, 1992; Lazemi & Ebrahimpour-Komleh, 2016; Tkalčič et al., 2016) were decided to constitute the emotional tags. These classes can be easily linked with facial communication and expressions, and these are (in alphabetical order): anger, disgust, fear, happiness, sadness, and surprise (Ekman, 1992; Farzindar & Inkpen, 2015:p.50).
 ## Source of Data
 The main sources of data originate from:
 1)	Secondary Data: They encompass a wide variety of movie metadata provided by the [MovieLenes research dataset](https://grouplens.org/datasets/movielens/)
 2)	Primary Data: Fetching the movie overviews for every one of the movies in the above dataset, via a [TMDB API for developers](https://developers.themoviedb.org/3/getting-started/introduction) from the [TDDb website](https://www.themoviedb.org/)
 ## Multi-label Classification Evaluation Metrics
-Micro average F1 score, subset accuracy score, cross validation score, hamming loss metric, ROC-AUC score.
+Micro average F1 score, subset accuracy score, cross-validation score, hamming loss metric, ROC-AUC score.
 ## Natural Language Processing (NLP)
-A series of NLP techniques were applied such as: Part of Speech (POS) tags, Sentiment Analysis, Topic Modeling, Name Entity Recognition (NER)
+A series of NLP techniques were applied such as: Part of Speech (POS) tags, Sentiment Analysis, Topic Modeling, Named-Entity Recognition (NER).
 ## Conclusions
 -	Emotional tags can constitute an additional feature in the movie industry for Recommender Systems (RSs) and advertising companies to integrate.
 -	Enhancement of RSs by refining the retrieval of similar movies/TV shows.
