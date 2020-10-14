@@ -40,6 +40,11 @@ After data preprocessing, feature selection and feature engineering the best mod
 Micro average F1 score, subset accuracy score, cross-validation score, hamming loss metric, ROC-AUC score.
 
 The final model was also evaluated via the [Scikit-Learn's multi-label confusion matrix report](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.multilabel_confusion_matrix.html).
+## Research Deliverables
+- Manual Labelling of 300 movies in terms of their represented emotion (the construction of an initial dataset with reference to their emotion was necessary for the models' production).
+- Prediction of emotion in 55,577 movies, as well the combination of their emotions (e.g. some movies can generate more than one emotion).
+- Intensity magnitude in the emotion production: different movies have different emotions and a different number/combination of emotions. But what about their intensity level?
+ After proceeding to that initiative, the generated emotion for each one of the six emotions is decided by the researcher to have 3 intensity levels, i.e. low, moderate, and high.
 ## Conclusions
 -	Emotional tags can constitute an additional feature in the movie industry for Recommender Systems (RSs) and advertising companies to integrate.
 -	Enhancement of RSs by refining the retrieval of similar movies/TV shows.
