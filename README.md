@@ -19,6 +19,8 @@ The main sources of data originate from:
 2)	Primary Data: Fetching the movie overviews for every one of the movies in the above dataset, via a [TMDB API for developers](https://developers.themoviedb.org/3/getting-started/introduction) from the [TDDb website](https://www.themoviedb.org/)
 ## Multi-label Classification Evaluation Metrics
 Micro average F1 score, subset accuracy score, cross-validation score, hamming loss metric, ROC-AUC score.
+
+The final model was also evaluated via the [Scikit-Learn's multi-label confusion matrix report](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.multilabel_confusion_matrix.html)
 ## Natural Language Processing (NLP)
 A series of NLP techniques were applied such as: Part of Speech (POS) tags, Sentiment Analysis, Topic Modeling, Named-Entity Recognition (NER).
 ## Conclusions
