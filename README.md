@@ -17,7 +17,9 @@ The production of the model would presuppose the existence of some emotional cla
 The main sources of data originate from:
 1)	Secondary Data: They encompass a wide variety of movie metadata provided by the [MovieLenes research dataset](https://grouplens.org/datasets/movielens/)
 2)	Primary Data: Fetching the movie overviews for every one of the movies in the above dataset, via a [TMDB API for developers](https://developers.themoviedb.org/3/getting-started/introduction) from the [TDDb website](https://www.themoviedb.org/)
-## Purpose
+## Multi-label Classification Evaluation Metrics
+Micro average F1 score, subset accuracy score, cross validation score, hamming loss metric, ROC-AUC score.
+## Conclusions
 -	Emotional tags can constitute an additional feature in the movie industry for Recommender Systems (RSs) and advertising companies to integrate.
 -	Enhancement of RSs by refining the retrieval of similar movies/TV shows.
 -	Movies with law popularity may present few or no tags. Therefore, an automatic prediction of emotional tags can alleviate the problem of incompleteness in tag spaces, cold start problem, and data sparsity in RSs.
