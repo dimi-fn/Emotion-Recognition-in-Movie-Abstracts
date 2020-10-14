@@ -46,13 +46,12 @@ Micro average F1 score, subset accuracy score, cross-validation score, hamming l
 The final model was also evaluated via the [Scikit-Learn's multi-label confusion matrix report](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.multilabel_confusion_matrix.html).
 ## Research Deliverables
 - Manual Labelling of 300 movies in terms of their represented emotion (the construction of an initial dataset with reference to their emotion was necessary for the models' production).
-- Prediction of emotion in 55,577 movies, as well the combination of their emotions (e.g. some movies can generate more than one emotion).
-- Intensity magnitude in the emotion production: different movies have different emotions and a different number/combination of emotions. But what about their intensity level?
+- Automatic extraction and prediction of emotional tags in 55,577 movies, as well the depiction of the combination of their emotions (e.g. some movies can generate more than one emotion).
+- Intensity magnitude in the emotion production procedure: different movies have different emotions and a different number/combination of emotions. But what about their intensity level?
  After proceeding to that initiative, the generated emotion for each one of the six emotions is decided by the researcher to have 3 intensity levels, i.e. low, moderate, and high.
 ## Conclusions
--	Emotional tags can constitute an additional feature in the movie industry for Recommender Systems (RSs) and advertising companies to integrate.
+-	Emotional tags can constitute an additional feature in the movie industry for Recommender Systems (RSs) and advertising companies to integrate. The project can also be useful in the movie industry in the context of film psychology, as well as in the Emotion Aware Recommender Systems (EARSs) helping RSs to scale by recommending new items based on affective item features and users’ emotional reactions.
 -	Enhancement of RSs by refining the retrieval of similar movies/TV shows.
--	Movies with law popularity may present few or no tags. Therefore, an automatic prediction of emotional tags can alleviate the problem of incompleteness in tag spaces, cold start problem, and data sparsity in RSs.
+-	Movies with law popularity may present few or no tags. Therefore, an automatic prediction of emotional tags can alleviate the problem of incompleteness in tag spaces, the cold start problem, and the data sparsity in RSs.
 ## Acknowledgments
 All respective references can be found inside the dissertation paper.
-
