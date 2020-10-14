@@ -24,7 +24,7 @@ The target variables for all models were the six emotions. However, the architec
 
 After data preprocessing, feature selection and feature engineering the best model was chosen and evaluated.
 ### Models
-Construction of __Machine Learning models__ in [Scikit-Learn](https://scikit-learn.org/stable/):
+Construction of __*Machine Learning models*__ in [Scikit-Learn](https://scikit-learn.org/stable/):
 1)	Logistic Regression as OvR classifier
 2)	Multinomial Naive Bayes 
 3)	Linear SVClassifier
@@ -38,7 +38,7 @@ Construction of __Machine Learning models__ in [Scikit-Learn](https://scikit-lea
 11)	Multi-layer (MLP) Perception Classifier (shallow network)
 12)	Multi-layer (MLP) Perception Classifier (deep network)
 
-Construction of Deep Learning Network models in [TensorFlow](https://www.tensorflow.org/):
+Construction of __*Deep Neural Network models__* in [TensorFlow](https://www.tensorflow.org/):
 A series of a wide variety of Convolutional and Recurrent Neural Network models, with word embeddings, pooling layers, Long Short-Term Memory (LSTM) units, either with single or multiple output layers.
 ### Multi-label Classification Evaluation Metrics
 Micro average F1 score, subset accuracy score, cross-validation score, hamming loss metric, ROC-AUC score.
