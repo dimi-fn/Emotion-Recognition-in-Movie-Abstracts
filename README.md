@@ -16,7 +16,7 @@ The production of the model would presuppose the existence of some emotional cla
 ## Source of Data
 Two were the main sources of data:
 1)	Secondary Data: They encompass a wide variety of movie metadata provided by the [MovieLenes research dataset](https://grouplens.org/datasets/movielens/)
-2)	Primary Data: Fetching the movie overviews for every one of the movies in the above dataset, via a [TMDB API for developers](https://developers.themoviedb.org/3/getting-started/introduction) from the [TDDb website]https://www.themoviedb.org/)
+2)	Primary Data: Fetching the movie overviews for every one of the movies in the above dataset, via a [TMDB API for developers](https://developers.themoviedb.org/3/getting-started/introduction) from the [TDDb website](https://www.themoviedb.org/)
 ## Purpose
 -	Emotional tags can constitute an additional feature in the movie industry for Recommender Systems (RSs) and advertising companies to integrate.
 -	Enhancement of RSs by refining the retrieval of similar movies/TV shows.
