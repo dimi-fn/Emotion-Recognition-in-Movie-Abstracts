@@ -54,4 +54,4 @@ The final model was also evaluated via the [Scikit-Learn's multi-label confusion
 -	Enhancement of RSs by refining the retrieval of similar movies/TV shows.
 -	Movies with law popularity may present few or no tags. Therefore, an automatic prediction of emotional tags can alleviate the problem of incompleteness in tag spaces, the cold start problem, and the data sparsity in RSs.
 ## Acknowledgments
-All respective references of authors and sources can be found inside the dissertation paper, which is also uploaded in the repository.
+All respective references of authors and sources can be found inside the dissertation paper, the latter of which is also uploaded in the repository. Additional references with regard to coding can also be found inside the notebooks.
