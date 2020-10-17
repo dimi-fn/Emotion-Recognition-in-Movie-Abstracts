@@ -47,7 +47,7 @@ The final model was also evaluated via the [Scikit-Learn's multi-label confusion
 ## Research Deliverables
 - Manual Labelling of 300 movies in terms of their represented emotion (the construction of an initial dataset with reference to their emotion was necessary for the models' production).
 - Automatic extraction and prediction of emotional tags in 55,577 movies, as well the depiction of the combination of their emotions (e.g. some movies can generate more than one emotion).
-- Intensity magnitude in the emotion production procedure: different movies have different emotions and a different number/combination of emotions. But what about their intensity level?
+- Intensity magnitude in the emotion production procedure: different movies may encompass different emotions and a different number/combination of emotions. But what about their intensity level?
  After proceeding to that initiative, the generated emotion for each one of the six emotions is decided by the researcher to have 3 intensity levels, i.e. low, moderate, and high.
 ## Conclusions
 -	Emotional tags can constitute an additional feature in the movie industry for Recommender Systems (RSs) and advertising companies to integrate. The project can also be useful in the movie industry in the context of film psychology, as well as in the Emotion Aware Recommender Systems (EARSs) helping RSs to scale by recommending new items based on affective item features and users’ emotional reactions.
