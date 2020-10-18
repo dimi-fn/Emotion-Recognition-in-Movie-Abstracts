@@ -74,7 +74,7 @@ All respective references of authors and sources can be found inside the dissert
 
 * 4e_Final_Model_&_Predictions.ipynb:
 
-* __5_Hypothesis_Tests.ipynb__:
+* *5_Hypothesis_Tests.ipynb*:
 
 * *__Dissertation Paper__*: The dissertation paper submitted at Strathclyde University for the degree of MSc in Information Management at the Computer & Information Sciences department (August 2020).
 
