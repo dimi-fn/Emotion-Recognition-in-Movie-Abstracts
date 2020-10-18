@@ -57,7 +57,7 @@ The final model was also evaluated via the [Scikit-Learn's multi-label confusion
 -	Movies with law popularity may present few or no tags. Therefore, an automatic prediction of emotional tags can alleviate the problem of incompleteness in tag spaces, the cold start problem, and the data sparsity in RSs.
 ## Acknowledgments
 All respective references of authors and sources can be found inside the dissertation paper, the latter of which is also uploaded in the repository. Additional references with regard to coding can also be found inside the notebooks.
-### Guidance for the code
+### Guidance through the coding files
 #### *__1_Initial_Datasets.ipynb__*: 
 * Data exploration of all six Movielens csv files provided.
 * Merging "genome tags" and "genome scores" and the introduction of ten stratums of relevance
