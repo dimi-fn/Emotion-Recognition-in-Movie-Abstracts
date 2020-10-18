@@ -59,7 +59,33 @@ The final model was also evaluated via the [Scikit-Learn's multi-label confusion
 All respective references of authors and sources can be found inside the dissertation paper, the latter of which is also uploaded in the repository. Additional references with regard to coding can also be found inside the notebooks.
 ### Guidance for the code
 * 1_Initial_Datasets.ipynb: 
-* Labelling_300_Movies.xlsx: The excel file containing the manual labelling of 300 movies. Note that they do not have a binary form of 0 and 1.
-This is because the researcher had in mind to use scores between 0-3, with values more than 1 implying more intensity.
-This was not used, however 1) values that are are >=1 were used as "1" and values with 0 as "0" 2) the intensity of emotions
+
+* 2_NLP_movies_final.ipynb:
+
+* 3_NLP2_movies_final_2_emotion_Labelling.ipynb: 
+
+* 4a_Models_ML_Overviews.ipynb: 
+
+* 4b_Models_ML_Overviews_&_Metadata.ipynb:
+
+* 4c_Models_DLoverviews&metadata.ipynb: 
+
+* 4d_Model_Bert.ipynb: 
+
+* 4e_Final_Model_&_Predictions.ipynb:
+
+* 5_Hypothesis_Tests.ipynb:
+
+* Dissertation Paper: The dissertation paper submitted at Strathclyde University for the degree of MSc in Information Management at the Computer & Information Sciences department (August 2020).
+
+* Labelling_300_Movies.xlsx: The excel file containing the manual labelling of 300 movies. Note that they do not have a binary form of 0 and 1. This is because the researcher had in mind to use scores between 0-3, with values more than 1 implying more intensity. This was not used, however 1) values that are are >=1 were used as "1" and values with 0 as "0" 2) the intensity of emotions
 was finally attributed by the confidence scores of the model's decision function.
+
+
+
+
+
+
+
+
+
