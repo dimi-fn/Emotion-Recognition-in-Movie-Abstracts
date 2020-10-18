@@ -58,27 +58,27 @@ The final model was also evaluated via the [Scikit-Learn's multi-label confusion
 ## Acknowledgments
 All respective references of authors and sources can be found inside the dissertation paper, the latter of which is also uploaded in the repository. Additional references with regard to coding can also be found inside the notebooks.
 ### Guidance for the code
-* **1_Initial_Datasets.ipynb**: 
+* *__1_Initial_Datasets.ipynb__*: 
 
 * *__2_NLP_movies_final.ipynb__*:
 
-* 3_NLP2_movies_final_2_emotion_Labelling.ipynb: 
+* *__3_NLP2_movies_final_2_emotion_Labelling.ipynb__*: 
 
-* 4a_Models_ML_Overviews.ipynb: 
+* *__4a_Models_ML_Overviews.ipynb__*: 
 
-* 4b_Models_ML_Overviews_&_Metadata.ipynb:
+* *__4b_Models_ML_Overviews_&_Metadata.ipynb__*:
 
-* 4c_Models_DLoverviews&metadata.ipynb: 
+* *__4c_Models_DLoverviews&metadata.ipynb__*: 
 
-* 4d_Model_Bert.ipynb: 
+* *__4d_Model_Bert.ipynb__*: 
 
-* 4e_Final_Model_&_Predictions.ipynb:
+* *__4e_Final_Model_&_Predictions.ipynb__*:
 
-* *5_Hypothesis_Tests.ipynb*:
+* *__5_Hypothesis_Tests.ipynb__*:
 
 * *__Dissertation Paper__*: The dissertation paper submitted at Strathclyde University for the degree of MSc in Information Management at the Computer & Information Sciences department (August 2020).
 
-* Labelling_300_Movies.xlsx: The excel file containing the manual labelling of 300 movies. Note that they do not have a binary form of 0 and 1. This is because the researcher had in mind to use scores between 0-3, with values more than 1 implying more intensity. This was not used, however 1) values that are are >=1 were used as "1" and values with 0 as "0" 2) the intensity of emotions
+* *__Labelling_300_Movies.xlsx__*: The excel file containing the manual labelling of 300 movies. Note that they do not have a binary form of 0 and 1. This is because the researcher had in mind to use scores between 0-3, with values more than 1 implying more intensity. This was not used, however 1) values that are are >=1 were used as "1" and values with 0 as "0" 2) the intensity of emotions
 was finally attributed by the confidence scores of the model's decision function.
 
 
