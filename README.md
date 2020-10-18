@@ -72,7 +72,7 @@ All respective references of authors and sources can be found inside the dissert
 
 * *__4d_Model_Bert.ipynb__*: 
 
-* *__4e_Final_Model_&_Predictions.ipynb__*:
+* **__4e_Final_Model_&_Predictions.ipynb__**:
 
 * *__5_Hypothesis_Tests.ipynb__*:
 
@@ -80,12 +80,6 @@ All respective references of authors and sources can be found inside the dissert
 
 * *__Labelling_300_Movies.xlsx__*: The excel file containing the manual labelling of 300 movies. Note that they do not have a binary form of 0 and 1. This is because the researcher had in mind to use scores between 0-3, with values more than 1 implying more intensity. This was not used, however 1) values that are are >=1 were used as "1" and values with 0 as "0" 2) the intensity of emotions
 was finally attributed by the confidence scores of the model's decision function.
-
-
-
-
-
-
 
 
 
