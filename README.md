@@ -1,5 +1,7 @@
 # Extraction of Emotional Tags from Movie Synopses
 
+## [Guidance through the coding notebooks]()
+
 ## Summary
 What makes a movie e.g. suspenseful, dramatic, or sci-fi, and which words hidden in movie plots can predefine this? The answer to that would help extract significant information from narrative texts and build an automatic system that could produce emotional tags.
 
