@@ -107,12 +107,13 @@ plus various movies metadata via Column Transformer with a pipeline
 used in hypothesis tests
 
 * 2 sets of hypothesis sets:
-	1) ratings vs emotions (in all dataset) (non user-centric approach): 4 tests
+	1) ratings vs emotions (in all dataset - non user-centric approach): 4 tests
 	2) user-centric approach:
 		a) ratings vs emotions (per user): 4 tests
 		b) emotion scores vs emotion scores in sets of movies in watchlists of users per unique user: 4 tests
 
-#### *__Dissertation Paper__*: The dissertation paper submitted at Strathclyde University for the degree of MSc in Information Management at the Computer & Information Sciences department (August 2020).
+#### 
+*__Dissertation Paper__*: The dissertation paper submitted at Strathclyde University for the degree of MSc in Information Management at the Computer & Information Sciences department (August 2020).
 
-#### *__Labelling_300_Movies.xlsx__*: The excel file containing the manual labelling of 300 movies. Note that they do not have a binary form of 0 and 1. This is because the researcher had in mind to use scores between 0-3, with values more than 1 implying more intensity. This was not used, however 1) values that are are >=1 were used as "1" and values with 0 as "0" 2) the intensity of emotions
-was finally attributed by the confidence scores of the model's decision function.
+####
+*__Labelling_300_Movies.xlsx__*: The excel file containing the manual labelling of 300 movies. Note that they do not have a binary form of 0 and 1. This is because the researcher had in mind to use scores between 0-3, with values more than 1 implying more intensity. This was not used, however 1) values that are are >=1 were used as "1" and values with 0 as "0" 2) the intensity of emotions was finally attributed by the confidence scores of the model's decision function.
