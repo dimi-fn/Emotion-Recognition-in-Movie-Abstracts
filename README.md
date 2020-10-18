@@ -59,9 +59,7 @@ The final model was also evaluated via the [Scikit-Learn's multi-label confusion
 All respective references of authors and sources can be found inside the dissertation paper, the latter of which is also uploaded in the repository. Additional references with regard to coding can also be found inside the notebooks.
 ### Guidance for the code
 * *__1_Initial_Datasets.ipynb__*: 
-
 * *__2_NLP_movies_final.ipynb__*:
-
 * *__3_NLP2_movies_final_2_emotion_Labelling.ipynb__*: 
 
 * *__4a_Models_ML_Overviews.ipynb__*: 
