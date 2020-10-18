@@ -11,7 +11,7 @@ The aim was to identify, define, and automatically predict a set of emotions in 
 
 The problem was treated as a multi-label classification one, and the result was the prediction of emotions in 55,577 unlabelled movies, and the identification of a correlation between the predicted emotions and users' ratings and preferences.
 
-Overall, various correlation tests indicated a strong relationship among users' watchlist and the respective emotional tags. It was concluded that the notion of emotion can constitute an important feature in the movie industry with regard to recommender systems and advertising companies for generating, finding, and placing a higher level of personalized content.
+Overall, various correlation tests indicated a strong relationship between users' watchlist and their respective emotional tags. It was concluded that the notion of emotion can constitute an important feature in the movie industry with regard to recommender systems and advertising companies for generating, finding, and placing a higher level of personalized content.
 ## Research Problem - Domain
 The production of the model would presuppose the existence of some emotional classes-labels with regard to movies. However and based on the research conducted, there was found no dataset fulfilling that, and therefore, initial manual labeling was necessary, as well the decision of the emotional tags used.
 Αfter thorough research, Ekman’s six discrete emotional classes (Ekman, 1992; Lazemi & Ebrahimpour-Komleh, 2016; Tkalčič et al., 2016) were decided to constitute the emotional tags. These classes can be easily linked with facial communication and expressions, and these are (in alphabetical order): anger, disgust, fear, happiness, sadness, and surprise (Ekman, 1992; Farzindar & Inkpen, 2015:p.50).
@@ -75,13 +75,13 @@ All respective references of authors and sources can be found inside the dissert
 * construction of "movies_final_2.csv" .
 #### *__3_NLP2_movies_final_2_emotion_Labelling.ipynb__*: 
 * Fixing entities.
-* Choosing genres for the final choice of movies sample for the manual emotion labelling.
+* Choosing genres for the final choice of movie sample for the manual emotion labelling.
 * Emotion labelling in 300 movies.
 * Construction of "movies_final_3.csv".
 #### *__4a_Models_ML_Overviews.ipynb__*: 
 * Application of various Machine Learning models with NLP, using as features the movie overviews.
 #### **__4b_Models_ML_Overviews_&_Metadata.ipynb__**:
-* Application of various Machine Learning models with NLP, using as feature the movie overviews plus various movies metadata via Column Transformer with a pipeline.
+* Application of various Machine Learning models with NLP, using as feature the movie overviews plus various movie metadata via Column Transformer with a pipeline.
 * Here is where the final model architecture is located, although it got even more fine-tuned in "4e_Final_Model_&_Predictions.ipynb".
 #### *__4c_Models_DLoverviews&metadata.ipynb__*: 
 * Application of various Deep Learning models with NLP.
@@ -108,4 +108,4 @@ used in hypothesis tests
 *__Dissertation Paper__*: The dissertation paper submitted at Strathclyde University for the degree of MSc in Information Management at the Computer & Information Sciences department (August 2020).
 
 ####
-*__Labelling_300_Movies.xlsx__*: The excel file containing the manual labelling of 300 movies. Note that they do not have a binary form of 0 and 1. This is because the researcher had in mind to use scores between 0-3, with values more than 1 implying more intensity. This was not used, however 1) values that are are >=1 were used as "1" and values with 0 as "0" 2) the intensity of emotions was finally attributed by the confidence scores of the model's decision function.
+*__Labelling_300_Movies.xlsx__*: The excel file containing the manual labelling of 300 movies. Note that they do not have a binary form of 0 and 1. This is because the researcher had in mind to use scores between 0-3, with values more than 1 implying more intensity. This was not used, however, 1) values that are are >=1 were used as "1" and values with 0 as "0" 2) the intensity of emotions was finally attributed by the confidence scores of the model's decision function.
