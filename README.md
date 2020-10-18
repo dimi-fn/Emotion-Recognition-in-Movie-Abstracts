@@ -60,47 +60,39 @@ All respective references of authors and sources can be found inside the dissert
 ### Guidance through the coding files
 #### *__1_Initial_Datasets.ipynb__*: 
 * Data exploration of all six Movielens csv files provided.
-* Merging "genome tags" and "genome scores" and the introduction of ten stratums of relevance
+* Merging "genome tags" and "genome scores" and the introduction of ten stratums of relevance.
 * Introducing a modified genome_scores csv file, keeping only the highest relevance scores and its metadata (relevance score>=0.7).
-* Adding a new column "rating_cat" in ratings.csv (values [1,3])
-* Merging movies.csv & links.csv. Creating a new column "overview" in order later to extract data from TMDb
-* Fetching movie plots from TMDb via a tmdb api for developers
-* Several feature engineering
-
+* Adding a new column "rating_cat" in ratings.csv (values [1,3]).
+* Merging movies.csv & links.csv. Creating a new column "overview" in order later to extract data from TMDb.
+* Fetching movie plots from TMDb via a tmdb api for developers.
+* Several feature engineering.
 #### *__2_NLP_movies_final.ipynb__*:
-* NLP techniques applied in movies_final dataframe
-* Tokenization & POS/ Visualization
-* Sentiment Analysis / Compound polarity scores
-* Non-Negative Matrix Factorization & Topic Modelling
-* Name Entity Recognition (NER) & Visualization / introducting the column "entities"
-* construction of "movies_final_2.csv" 
-
+* NLP techniques applied in movies_final dataframe.
+* Tokenization & POS/ Visualization.
+* Sentiment Analysis / Compound polarity scores.
+* Non-Negative Matrix Factorization & Topic Modelling.
+* Name Entity Recognition (NER) & Visualization / introducting the column "entities".
+* construction of "movies_final_2.csv" .
 #### *__3_NLP2_movies_final_2_emotion_Labelling.ipynb__*: 
-* Fixing entities
-* Choosing genres for the final choice of movies sample for the manual emotion labelling
-* Emotion labelling in 300 movies
-* Construction of "movies_final_3.csv"
-
+* Fixing entities.
+* Choosing genres for the final choice of movies sample for the manual emotion labelling.
+* Emotion labelling in 300 movies.
+* Construction of "movies_final_3.csv".
 #### *__4a_Models_ML_Overviews.ipynb__*: 
 * Application of various Machine Learning models with NLP, using as features the movie overviews.
-
 #### **__4b_Models_ML_Overviews_&_Metadata.ipynb__**:
-* Application of various Machine Learning models with NLP, using as feature the movie overviews
-plus various movies metadata via Column Transformer with a pipeline
+* Application of various Machine Learning models with NLP, using as feature the movie overviews plus various movies metadata via Column Transformer with a pipeline.
 * Here is where the final model architecture is located, although it got even more fine-tuned in "4e_Final_Model_&_Predictions.ipynb".
-
 #### *__4c_Models_DLoverviews&metadata.ipynb__*: 
-* Application of various Deep Learning models with NLP
-* Word Embeddings 
-* Single and multiple output layers
-
+* Application of various Deep Learning models with NLP.
+* Word Embeddings. 
+* Single and multiple output layers.
 #### *__4d_Model_Bert.ipynb__*: 
 * Making Predictions with BERT via the FastBert Deep Learning library.
-
 #### **__4e_Final_Model_&_Predictions.ipynb__**:
-* Fine-tuning the final model initially created in "4b_Models_ML_Overviews & Metadata.ipynb"
-* Making predictions in 55,577 unlabelled movies in terms of emotions
-* extracting "predictions_decision_scores_df.csv"
+* Fine-tuning the final model initially created in "4b_Models_ML_Overviews & Metadata.ipynb".
+* Making predictions in 55,577 unlabelled movies in terms of emotions.
+* Extracting "predictions_decision_scores_df.csv".
 
 #### *__5_Hypothesis_Tests.ipynb__*:
 * Normality checks for checking the existence of normal distribution or not in variables
