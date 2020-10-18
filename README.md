@@ -66,7 +66,7 @@ All respective references of authors and sources can be found inside the dissert
 
 * *__4a_Models_ML_Overviews.ipynb__*: 
 
-* *__4b_Models_ML_Overviews_&_Metadata.ipynb__*:
+* **__4b_Models_ML_Overviews_&_Metadata.ipynb__**:
 
 * *__4c_Models_DLoverviews&metadata.ipynb__*: 
 
