@@ -58,7 +58,7 @@ The final model was also evaluated via the [Scikit-Learn's multi-label confusion
 ## Acknowledgments
 All respective references of authors and sources can be found inside the dissertation paper, the latter of which is also uploaded in the repository. Additional references with regard to coding can also be found inside the notebooks.
 ### Guidance through the coding files
-#### *__1_Initial_Datasets.ipynb__*: 
+#### [*__1_Initial_Datasets.ipynb__*](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts/blob/master/1_Initial_Datasets.ipynb): 
 * Data exploration of all six Movielens csv files provided.
 * Merging "genome tags" and "genome scores" and the introduction of ten stratums of relevance.
 * Introducing a modified genome_scores csv file, keeping only the highest relevance scores and its metadata (relevance score>=0.7).
