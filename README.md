@@ -66,35 +66,35 @@ All respective references of authors and sources can be found inside the dissert
 * Merging movies.csv & links.csv. Creating a new column "overview" in order later to extract data from TMDb.
 * Fetching movie plots from TMDb via a tmdb api for developers.
 * Several feature engineering.
-#### *__2_NLP_movies_final.ipynb__*:
+#### [*__2_NLP_movies_final.ipynb__*](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts/blob/master/2_NLP_movies_final.ipynb):
 * NLP techniques applied in movies_final dataframe.
 * Tokenization & POS/ Visualization.
 * Sentiment Analysis / Compound polarity scores.
 * Non-Negative Matrix Factorization & Topic Modelling.
 * Name Entity Recognition (NER) & Visualization / introducting the column "entities".
 * construction of "movies_final_2.csv" .
-#### *__3_NLP2_movies_final_2_emotion_Labelling.ipynb__*: 
+#### [*__3_NLP2_movies_final_2_emotion_Labelling.ipynb__*](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts/blob/master/3_NLP2_movies_final_2_emotion_Labelling.ipynb): 
 * Fixing entities.
 * Choosing genres for the final choice of movie sample for the manual emotion labelling.
 * Emotion labelling in 300 movies.
 * Construction of "movies_final_3.csv".
-#### *__4a_Models_ML_Overviews.ipynb__*: 
+#### [*__4a_Models_ML_Overviews.ipynb__*](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts/blob/master/4a_Models_ML_Overviews.ipynb): 
 * Application of various Machine Learning models with NLP, using as features the movie overviews.
-#### **__4b_Models_ML_Overviews_&_Metadata.ipynb__**:
+#### [**__4b_Models_ML_Overviews_&_Metadata.ipynb__**](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts/blob/master/4b_Models_ML_Overviews_%26_Metadata.ipynb):
 * Application of various Machine Learning models with NLP, using as features the movie overviews plus various movie metadata via Column Transformer with a pipeline.
 * Here is where the final model architecture is located, although it got even more fine-tuned in "4e_Final_Model_&_Predictions.ipynb".
-#### *__4c_Models_DLoverviews&metadata.ipynb__*: 
+#### [*__4c_Models_DLoverviews&metadata.ipynb__*](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts/blob/master/4c_Models_DLoverviews%26metadata.ipynb): 
 * Application of various Deep Learning models with NLP.
 * Word Embeddings. 
 * Single and multiple output layers.
-#### *__4d_Model_Bert.ipynb__*: 
+#### [*__4d_Model_Bert.ipynb__*](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts/blob/master/4d_Model_Bert.ipynb): 
 * Making Predictions with BERT via the FastBert Deep Learning library.
-#### **__4e_Final_Model_&_Predictions.ipynb__**:
+#### [**__4e_Final_Model_&_Predictions.ipynb__**](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts/blob/master/4e_Final_Model_%26_Predictions.ipynb):
 * Fine-tuning the final model initially created in "4b_Models_ML_Overviews & Metadata.ipynb".
 * Making predictions in 55,577 unlabelled movies in terms of emotions.
 * Extracting "predictions_decision_scores_df.csv".
 
-#### *__5_Hypothesis_Tests.ipynb__*:
+#### [*__5_Hypothesis_Tests.ipynb__*](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts/blob/master/5_Hypothesis_Tests.ipynb):
 * Normality checks for checking the existence of normal distribution or not in variables used in hypothesis tests.
 
 * 2 sets of hypothesis sets:
