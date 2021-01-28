@@ -2,6 +2,21 @@
 
 ### [Guidance through the coding notebooks](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts#guidance-through-the-coding-files)
 
+Table of Contents
+=======================
+
+* [Summary](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts#summary)
+* [Research Problem - Domain](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts#research-problem---domain)
+* [Source of Data](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts#source-of-data)
+* [Natural Language Processing (NLP)](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts#natural-language-processing-nlp)
+* [Models' Production](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts#models-production)
+	* [Models](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts#models)
+	* [Multi-label Classification Evaluation Metrics](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts#multi-label-classification-evaluation-metrics)
+	* [Research Deliverables](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts#research-deliverables)
+* [Conclusions](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts#conclusions)
+* [Acknowledgments](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts#acknowledgments)
+* [Guidance through the coding files](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts#guidance-through-the-coding-files)
+
 ## Summary
 What makes a movie e.g. suspenseful, dramatic, or sci-fi, and which words hidden in movie plots can predefine this? The answer to that would help extract significant information from narrative texts and build an automatic system that could produce emotional tags.
 
@@ -56,7 +71,7 @@ The final model was also evaluated via the [Scikit-Learn's multi-label confusion
 -	Enhancement of RSs by refining the retrieval of similar movies/TV shows.
 -	Movies with law popularity may present few or no tags. Therefore, an automatic prediction of emotional tags can alleviate the problem of incompleteness in tag spaces, the cold start problem, and the data sparsity in RSs.
 ## Acknowledgments
-All respective references of authors and sources can be found inside the dissertation paper, the latter of which is also uploaded in the repository. Additional references with regard to coding can also be found inside the notebooks.
+All respective references of authors and sources can be found inside the dissertation paper, the latter of which is also uploaded in this repository. Additional references with regard to coding can also be found inside the notebooks.
 ### Guidance through the coding files
 #### [*__1_Initial_Datasets.ipynb__*](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts/blob/master/1_Initial_Datasets.ipynb): 
 * Data exploration of all six Movielens csv files provided.
