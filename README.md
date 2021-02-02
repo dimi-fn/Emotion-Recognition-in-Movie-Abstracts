@@ -20,6 +20,7 @@ Table of Contents
 	* [Research Deliverables](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts#research-deliverables)
 * [Conclusions](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts#conclusions)
 * [Acknowledgments](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts#acknowledgments)
+* [Dissertation Paper](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts#dissertation-paper)
 * [Guidance through the coding files](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts#guidance-through-the-coding-files)
 
 ## Summary
