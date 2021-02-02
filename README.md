@@ -123,6 +123,7 @@ All respective references of authors and sources can be found inside the dissert
 	2) user-centric approach:
 		a) ratings vs emotions (per user): 4 tests.
 		b) emotion scores vs emotion scores in sets of movies in watchlists of users per unique user: 4 tests.
+		
 ##
 [*__Dissertation Paper__*](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts/blob/master/Dissertation%20Paper.pdf): The dissertation paper submitted at Strathclyde University for the degree of MSc in Information Management at the Computer & Information Sciences department (August 2020), which contains the theoretical  and practical part of this repository project.
 ####
