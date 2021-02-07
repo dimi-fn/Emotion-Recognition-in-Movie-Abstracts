@@ -1,4 +1,4 @@
-# Extraction of Emotional Tags from Movie Synopses
+# Emotion Recognition in Movie Synopses
 
 ### [Guidance through the coding notebooks](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts#guidance-through-the-coding-files)
 
