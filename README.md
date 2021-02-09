@@ -3,7 +3,7 @@
 ### [Guidance through the coding notebooks](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts#guidance-through-the-coding-files)
 
 ### *Note:
-Due to a Github bug ([issue #3555](https://github.com/jupyter/notebook/issues/3555)), sometimes the notebook files (files with .ipynb) may not render. Please reload the page until the content can be displayed. If that is not possible, then shared Google Colab notebook links are provided to each directory.
+Due to a GitHub bug (issue [#3035](https://github.com/jupyter/notebook/issues/3035) & [#3555](https://github.com/jupyter/notebook/issues/3555)), sometimes the notebook files (files ending in ".ipynb") may not render. Please reload the page until the content can be displayed. If that is not possible, then shared Google Colab notebook links are provided to each directory.
 
 Table of Contents
 =======================
