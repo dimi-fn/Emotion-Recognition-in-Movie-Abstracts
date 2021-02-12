@@ -24,7 +24,7 @@ Table of Contents
 ## Summary
 What makes a movie e.g. suspenseful, dramatic, or sci-fi, and which words hidden in movie plots can predefine this? The answer to that would help extract significant information from narrative texts and build an automatic system that could produce emotional tags.
 
-This project was submitted in partial fulfillment of requirements for the degree of MSc Information Management at Strathclyde University (August 2020). It was marked with distinction, and it has received citations from other academic papers based on [academia.edu](https://www.academia.edu/) mention reports.
+This project was submitted in partial fulfillment of requirements for the degree of MSc Information Management at Strathclyde University (August 2020). It was marked with distinction, and it has received citations from other academic papers based on mention reports at [academia.edu](https://www.academia.edu/).
 
 The aim was to identify, define, and automatically predict a set of emotions in movies based on their movie abstract and various metadata. This was achieved with various data processing, and *Machine & Deep Learning* tools, with a core element and focus on *Natural Language Processing*.
 
