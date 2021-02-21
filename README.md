@@ -26,9 +26,9 @@ What makes a movie e.g. suspenseful, dramatic, or sci-fi, and which words hidden
 
 This project was submitted in partial fulfillment of requirements for the degree of MSc Information Management at Strathclyde University (August 2020). It was marked with distinction, and it has received citations from other academic papers based on mention reports at [academia.edu](https://www.academia.edu/).
 
-The aim was to identify, define, and automatically predict a set of emotions in movies based on their movie abstract and various metadata. This was achieved with various data preprocessing, and *Machine & Deep Learning* tools, with a core element and focus on *Natural Language Processing*.
+The aim was to identify, define, and automatically predict a set of emotions in movies based on their movie abstracts and metadata. This was achieved with a series of steps including data collection and cleaning, descriptive and inferential statistics, data preprocessing, and *Machine & Deep Learning* tools and models with a core element and focus on *Natural Language Processing*.
 
-The problem was treated as a multi-label classification one, and the result was the prediction of emotions in 55,577 unlabelled movies, and the identification of a correlation between the predicted emotions and users' ratings and preferences.
+The problem was treated as a multi-label classification one, and the result was the prediction of emotions in 55,577 unlabelled movies, as well as the identification of correlations between the predicted emotions and users' ratings and preferences.
 
 Overall, various correlation tests indicated a *strong relationship* between users' watchlist and their respective emotional tags. It was concluded that the notion of emotion can constitute an important feature in the movie industry with regard to recommender systems and advertising companies for generating, finding, and placing a higher level of personalized content.
 ## Research Problem - Domain
