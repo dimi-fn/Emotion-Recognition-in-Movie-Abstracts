@@ -32,7 +32,7 @@ The problem was treated as a multi-label classification one, and the result was 
 
 Overall, various correlation tests indicated a *strong relationship* between users' watchlist and their respective emotional tags. It was concluded that the notion of emotion can constitute an important feature in the movie industry with regard to recommender systems and advertising companies for generating, finding, and placing a higher level of personalized content.
 ## Research Problem - Domain
-The production of the model would presuppose the existence of some emotional classes-labels with regard to movies. However and based on the research conducted, there was found no dataset fulfilling that, and therefore, initial manual labeling was necessary, as well the decision of the emotional tags used.
+The production of the model would presuppose the existence of some emotional classes-labels with regard to movies. However and based on the research conducted, there was found no dataset fulfilling that, and therefore, initial manual labeling was necessary, as well as that of the initiative and decision taken for a set of emotional tags to be used.
 Αfter thorough research, Ekman’s six discrete emotional classes (Ekman, 1992; Lazemi & Ebrahimpour-Komleh, 2016; Tkalčič et al., 2016) were decided to constitute the emotional tags. These classes can be easily linked with facial communication and expressions, and these are (in alphabetical order): anger, disgust, fear, happiness, sadness, and surprise (Ekman, 1992; Farzindar & Inkpen, 2015:p.50).
 ## Source of Data
 The main sources of data originate from:
