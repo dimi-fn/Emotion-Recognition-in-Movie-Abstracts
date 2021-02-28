@@ -21,6 +21,8 @@ Table of Contents
 * [Dissertation Paper](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts#dissertation-paper)
 * [Guidance through the coding files](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts#guidance-through-the-coding-files)
 
+---
+
 ## Summary
 What makes a movie e.g. suspenseful, dramatic, or sci-fi, and which words hidden in movie plots can predefine this? The answer to that would help to extract significant information from narrative texts and build an automatic system that could produce emotional tags.
 
